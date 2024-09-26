@@ -19,6 +19,7 @@ server.get("/", (req, res) => {
 
 server.get("/profile", (req, res) =>{
     res.send("Profile Route")
+    console.log(req.query)
 })
 
 

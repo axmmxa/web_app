@@ -7,3 +7,9 @@ server.listen(PORT, ()=> {
 })
 
 console.log("App started")
+
+
+//Routes 
+server.get("/", (req, res) => {
+    res.send("Main Route")
+})

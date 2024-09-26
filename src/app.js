@@ -13,3 +13,7 @@ console.log("App started")
 server.get("/", (req, res) => {
     res.send("Main Route")
 })
+
+server.get("/profile", (req, res) =>{
+    res.send("profile Route")
+})

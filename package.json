@@ -1,0 +1,21 @@
+{
+  "name": "web_app",
+  "version": "1.0.0",
+  "description": "hosts the node.js server and browser frontend code",
+  "main": "src",
+  "scripts": {
+    "start":"node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axmmxa/web_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axmmxa/web_app/issues"
+  },
+  "homepage": "https://github.com/axmmxa/web_app#readme"
+}

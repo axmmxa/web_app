@@ -8,6 +8,12 @@ server.listen(PORT, ()=> {
 
 console.log("App started")
 
+//404 Handler 
+server.use( (req, res) => {
+    res.status(404).json({
+        status:"Seite existiert nicht! 404 Error"
+    })
+})
 
 //Routes 
 server.get("/", (req, res) => {
@@ -15,5 +21,5 @@ server.get("/", (req, res) => {
 })
 
 server.get("/profile", (req, res) =>{
-    res.send("profile Route")
+    res.send("Profile Route")
 })

@@ -4,6 +4,7 @@
   "description": "hosts the node.js server and browser frontend code",
   "main": "src",
   "scripts": {
+    "dev": "nodemon .",
     "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/axmmxa/web_app#readme",
   "dependencies": {
     "esm": "^3.2.25",
-    "express": "^4.21.0"
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7"
   }
 }
